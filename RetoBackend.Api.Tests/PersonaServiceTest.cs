@@ -21,6 +21,8 @@ namespace RetoBackend.Api.Tests
 
         private IEnumerable<Persona> ObtenerDataPrueba()
         {
+            //This method is to fill the call
+
             A.Configure<Persona>()
                     .Fill(x => x.Nombre).AsFirstName()
                      .Fill(x => x.Apellido).AsLastName()
