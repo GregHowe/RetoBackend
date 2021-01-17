@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HOLH28wqda226lZFWiH4/y5dPDmWl43ylmohCvcTozvP5TZvD007oQtAHcoVSitR/13yjCDr08lsQgoDVzt9zA==",
+  "dgSpecHash": "G8L+KGoUeq2HLmBXb/llDCUMTP52zNJUGeiYZdPoF0cMU/mI9YeJhx+2LM3LRM3zTLK94r/YTCpJZKURfZ/wgA==",
   "success": true,
   "projectFilePath": "D:\\EXT-DISC-INFO\\Tutoriales\\Dev\\Udemy\\Microservicios\\reto-Backend\\RetoBackend.Api\\RetoBackend.Api.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\Richard\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Richard\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Richard\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Richard\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\Richard\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Richard\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Richard\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

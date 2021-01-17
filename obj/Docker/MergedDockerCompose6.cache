@@ -1,0 +1,16 @@
+networks:
+  default:
+    external: true
+    name: microservicesnet
+services:
+  retobackend.api:
+    build:
+      context: D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend
+      dockerfile: RetoBackend.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: retobackendapi
+    ports:
+    - published: 6105
+      target: 80
+version: '3.4'

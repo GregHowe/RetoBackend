@@ -2,3 +2,8 @@
 2021-01-16 21:53:20,863 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
 2021-01-16 21:53:20,890 [1] INFO Microsoft.Hosting.Lifetime - Content root path: D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api
 2021-01-16 21:53:28,838 [7] INFO RetoBackend.Api.Controllers.PersonaController - Start : Getting item details for 3
+2021-01-17 04:50:27,409 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://[::]:80
+2021-01-17 04:50:27,435 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-01-17 04:50:27,440 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-01-17 04:50:27,455 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /app
+2021-01-17 04:50:29,557 [4] INFO RetoBackend.Api.Controllers.PersonaController - Start : Getting Personas

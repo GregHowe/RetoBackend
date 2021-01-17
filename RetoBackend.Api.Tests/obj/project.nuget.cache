@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hA4HG/1DavQieApU0aV1lhfVXj+Czm92KBfesKImeKqlCmidflQ628aXh5emXowL5sAJo7MS6qugfO43xp9Fbg==",
+  "dgSpecHash": "V/JQouuBB7hV0ewgwJ8nleEA8Mf1fsUK/Mq5lPY6b0ruQ8SD6/2mFIn9+FiaadNlkYg2bx9b7PPC2JAKzoDRdg==",
   "success": true,
   "projectFilePath": "D:\\EXT-DISC-INFO\\Tutoriales\\Dev\\Udemy\\Microservicios\\reto-Backend\\RetoBackend.Api.Tests\\RetoBackend.Api.Tests.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\Richard\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Richard\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.5.0\\microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
     "C:\\Users\\Richard\\.nuget\\packages\\microsoft.testplatform.testhost\\16.5.0\\microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
+    "C:\\Users\\Richard\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\Richard\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Richard\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Richard\\.nuget\\packages\\moq\\4.14.5\\moq.4.14.5.nupkg.sha512",

@@ -1,0 +1,34 @@
+services:
+  retobackend.api:
+    build:
+      context: D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend
+      dockerfile: RetoBackend.Api/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: RetoBackend.Api
+      target: base
+    container_name: RetoBackend.Api
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: retobackendapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/netcoreapp3.1/RetoBackend.Api.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api:/app:rw
+    - C:\Users\Richard\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Richard\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Richard\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Richard\.nuget\packages:/root/.nuget/packages:ro
+    - D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend:/src:rw
+version: '3.4'

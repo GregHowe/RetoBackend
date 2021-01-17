@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  retobackend.api:
+    image: ${DOCKER_REGISTRY-}retobackendapi
+    build:
+      context: .
+      dockerfile: RetoBackend.Api/Dockerfile
+networks:
+  default:
+    external:
+        name: microservicenet
