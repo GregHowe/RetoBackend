@@ -16,6 +16,7 @@ using Microsoft.Extensions.Logging;
 using RetoBackend.Api.Aplicacion;
 using RetoBackend.Api.Persistencia;
 using Microsoft.OpenApi.Models;
+using RetoBackend.Api.CloudStorage;
 
 namespace RetoBackend.Api
 {
@@ -31,6 +32,8 @@ namespace RetoBackend.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
+            services.AddControllers().AddNewtonsoftJson();
+            services.AddControllersWithViews().AddNewtonsoftJson();
 
             services.AddDbContext<ContextoPersona>(opt =>
             {
@@ -48,15 +51,17 @@ namespace RetoBackend.Api
                      c.CustomSchemaIds(type => type.ToString());
                  });
 
+            services.AddSingleton<ICloudStorage, GoogleCloudStorage>();
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {   
+        {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-         
+
             app.UseRouting();
 
             app.UseAuthorization();

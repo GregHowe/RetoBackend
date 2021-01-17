@@ -1,3 +1,7 @@
+networks:
+  default:
+    external: true
+    name: microservicenet
 services:
   retobackend.api:
     build:
@@ -7,5 +11,6 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
     image: retobackendapi
     ports:
-    - target: 80
+    - published: 6105
+      target: 80
 version: '3.4'

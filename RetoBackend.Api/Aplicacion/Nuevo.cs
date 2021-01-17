@@ -7,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using RetoBackend.Api.Modelo;
 using RetoBackend.Api.Persistencia;
+using Microsoft.AspNetCore.Http;
 
 namespace RetoBackend.Api.Aplicacion
 {
@@ -19,6 +20,11 @@ namespace RetoBackend.Api.Aplicacion
             public DateTime FecNacimiento { get; set; }
             public string Documento { get; set; }
             public string TipoDocumento { get; set; }
+            public string imageUrl { get; set; }
+            public string title { get; set; }
+            public string fileName { get; set; }
+            public string imageStorageName { get; set; }
+            public virtual byte[] imageByte { get; set; }
             public List<PersonaDetalle> PersonaDetalleLista { get; set; }
         }
 
@@ -53,7 +59,9 @@ namespace RetoBackend.Api.Aplicacion
                     Apellido = request.Apellido,
                     FecNacimiento = request.FecNacimiento,
                     Documento = request.Documento,
-                    TipoDocumento = request.TipoDocumento
+                    TipoDocumento = request.TipoDocumento,
+                    imageUrl = request.imageUrl,
+                    imageStorageName = request.imageStorageName
                 };
 
                 _contexto.Persona.Add(persona);
@@ -66,26 +74,30 @@ namespace RetoBackend.Api.Aplicacion
 
                 int PersonaId = persona.PersonaId;
 
-                foreach (var obj in request.PersonaDetalleLista)
+                if (request.PersonaDetalleLista != null)
                 {
-                    var detalle = new PersonaDetalle
+                    foreach (var obj in request.PersonaDetalleLista)
                     {
-                        PersonaId = PersonaId,
-                        Direccion = obj.Direccion,
-                        Email = obj.Email,
-                        Telefono = obj.Telefono
-                    };
-                    _contexto.PersonaDetalle.Add(detalle);
+                        var detalle = new PersonaDetalle
+                        {
+                            PersonaId = PersonaId,
+                            Direccion = obj.Direccion,
+                            Email = obj.Email,
+                            Telefono = obj.Telefono
+                        };
+                        _contexto.PersonaDetalle.Add(detalle);
+                    }
+
+                    value = await _contexto.SaveChangesAsync();
+
+                    if (value > 0)
+                    {
+                        return Unit.Value;
+                    }
+                    throw new Exception("No se pudo guardar el detalle de la Persona");
                 }
 
-                value = await _contexto.SaveChangesAsync();
-
-                if (value > 0)
-                {
-                    return Unit.Value;
-                }
-
-                throw new Exception("No se pudo guardar el detalle de la Persona");
+                return Unit.Value;
 
             }
         }

@@ -35,3 +35,17 @@ D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Reto
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\obj\Debug\docker-compose.dcprojAssemblyReference.cache
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\libman.json
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\retobackend-pothos-0c6243da6e5f.json
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Google.Apis.Auth.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Google.Cloud.Storage.V1.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Google.Apis.Storage.v1.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Google.Apis.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Google.Apis.Core.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Newtonsoft.Json.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Google.Api.Gax.Rest.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Google.Api.Gax.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\bin\Debug\Newtonsoft.Json.Bson.dll

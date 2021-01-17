@@ -1,3 +1,7 @@
+networks:
+  default:
+    external: true
+    name: microservicenet
 services:
   retobackend.api:
     build:
@@ -22,7 +26,8 @@ services:
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     ports:
-    - target: 80
+    - published: 6105
+      target: 80
     tty: true
     volumes:
     - D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api:/app:rw

@@ -17,6 +17,8 @@ namespace RetoBackend.Api.Aplicacion
         public DateTime FecNacimiento { get; set; }
         public string Documento { get; set; }
         public string TipoDocumento { get; set; }
+        public string imageUrl { get; set; }
+        public string imageStorageName { get; set; }
         public List<PersonaDetalleDto> PersonaDetalleDtoLista { get; set; }
 
     }

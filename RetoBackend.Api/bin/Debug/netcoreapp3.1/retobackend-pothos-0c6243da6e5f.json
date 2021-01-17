@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "retobackend-pothos",
+  "private_key_id": "0c6243da6e5f996ec03f5bb541c94ea7e6f1fe5c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5JdQhFHKRZHE2\n8mqZlZPDeLgNNhUbIf75FlZmOd1Pi81pYe1PEB5GzGQcVtiAtB4RjByrCKenWjdQ\naqZkUy9XUoq+uOcfslQy0INfrNhtLoTCUQSlTLOYxC/FDrPf3BROgwTRg6r7Yra/\nPd7seS66UDHFqbBiPpoEGZEcz6snd8iWKtXbUE7V/8xJhTa+eoRPtxqimpxhiqYk\nQ6N/KrDravR5NCZzipLh8THWpqcnDG7qCSgqnbKPNhH9mqX3l1wlzgt6RKjxmMJg\nHcRx6wf4VCkJVvF9nj/5bsD4BxCJ8xP40wtqvZsiDDNp6dnP/Ut1skjPKXTKOQvK\nBjY6a2NpAgMBAAECggEADxcXtoiBm/sJRTa13IW18Okeayk8yCTZsLiS2ysdMBYP\nbGboXhjMtu2CvVKQu9CyYLDAR2phq8CtIHdIz4V+JspZ95h/cfRpa2jWRE6Ep0Vy\n2Zmb3NMnEizvTcrYe0bnOszv8BmgrnOJvIWQ7UolNldB7z/Y2fELQYlJ7AS7CPDV\nDTWvKaknXUtiUdmuyVT0P5LzXuClarY1jxPlE6PC2tib+/ajd7l1V1gl+lCnNLAt\nT/ui1P5xEcsPe7O0S5cVeNo94VScP8fAs2T0YF/dBkNtpcksz6WZhQ7f7JRidc05\nkXkHEPue4Qapwx3Sfp0OZW/fM6tK5aDoroOoEjUZwQKBgQD5g8eqWxopuQvKruhq\nWDtktq4wmv1jjW8rtSpocjuYAC45gxdgJ+vGUgW8Jf8V46MK7S0Upy5SYor5TTQQ\nmMhex56wikvLuSBQW3u6yhi9bZ8GJRJ5nUefH/prI8dJTdn9OkWyTGA/RnEIXQvS\nR300yMO7VIzMGSMqjND2B6YwMQKBgQC99cOOc+c1aR7fA3/wp7oNJQr6SPw47mOY\nR0w3mSCIrbminHW0qjsh7c7501K8gDAwrLRzJQ3wFjuCkgGaLEBz9yHss+WFnbD/\n6/efJZflvv9tQ3VNA7Zm06LruMW7Mj1+zrkIBrpX0zFnfwxkojwIRh3NOCl20+/6\nnrLQfOeQuQKBgQDPaRn6pIxVDnuc2lRcwkds6uZVhSEJNjKpdIlyFTMwoUXLjQtL\nZSP60Yfu5O7sdTO9C3cj6ez5kuzPW7vh5/73upxRSETFbnhMFCAAH6r9HDjK1NpM\nuc8lmWGC2lT4vHxuoZf6JL8FGjsvppkDDWYpEJKUEC6SIns3DaNOQQGGoQKBgH1v\nqC6NAoQWYjhJi1ZSq1y6tUEIqOS/Ji0MB5w/FWirrwVd46vlLR7+dcoqbVvkGe5K\nXO4b7dQ4GhviZgR0bCsnadNwB4Pv2U1leCIzJNalBO4VuYOdi/jij5awcIFob4so\n3q4aIzqTTvBUyM47AwFDq7Iz/81jrfgEi3d4w0ChAoGBAJqC32fVzhLsvchP9/Yg\nkrDtbgoQdzAeXf7FcfHXDPpCkL74aK+p0a+0r72V5QjUmWzjghbwKSi3FwKrY4jM\n0xi2pf2Qyh/bv7cQFI9hxbTHfOZ92qb2H7jFK3ukP7Jk/LmTJ3LQX3TNs69cnvw3\nE43nXbHAJsK3HDU5KAX+oFbA\n-----END PRIVATE KEY-----\n",
+  "client_email": "new-service-account@retobackend-pothos.iam.gserviceaccount.com",
+  "client_id": "113186579932172730706",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/new-service-account%40retobackend-pothos.iam.gserviceaccount.com"
+}

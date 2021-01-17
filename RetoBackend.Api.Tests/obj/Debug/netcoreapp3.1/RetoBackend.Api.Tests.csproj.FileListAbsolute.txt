@@ -295,3 +295,16 @@ D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Ap
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\log4net.config
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\log4net.dll
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\libman.json
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\retobackend-pothos-0c6243da6e5f.json
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Google.Apis.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Google.Apis.Storage.v1.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Google.Cloud.Storage.V1.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

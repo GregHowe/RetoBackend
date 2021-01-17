@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
@@ -7,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using RetoBackend.Api.Aplicacion;
+using RetoBackend.Api.CloudStorage;
 
 namespace RetoBackend.Api.Controllers
 {
@@ -17,11 +19,15 @@ namespace RetoBackend.Api.Controllers
 
         private readonly IMediator _mediator;
         private readonly ILogger<PersonaController> _logger;
+        private readonly ICloudStorage _cloudStorage;
+
         public PersonaController(ILogger<PersonaController> logger,
-            IMediator mediator)
+            IMediator mediator,
+            ICloudStorage cloudStorage)
         {
             _mediator = mediator;
             _logger = logger;
+            _cloudStorage = cloudStorage;
         }
 
         [HttpPost]
@@ -29,6 +35,7 @@ namespace RetoBackend.Api.Controllers
         {
             try
             {
+                await UploadFile(data);
                 return await _mediator.Send(data);
             }
             catch (Exception e)
@@ -36,6 +43,20 @@ namespace RetoBackend.Api.Controllers
                 _logger?.LogError(e.ToString());
                 return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
             }
+        }
+
+        private async Task UploadFile(Nuevo.Ejecuta infoImg)
+        {
+            string fileNameForStorage = FormFileName(infoImg.title, infoImg.fileName);
+            infoImg.imageUrl = await _cloudStorage.UploadFileAsync(infoImg.imageByte, fileNameForStorage);
+            infoImg.imageStorageName = fileNameForStorage;
+        }
+
+        private static string FormFileName(string title, string fileName)
+        {
+            var fileExtension = Path.GetExtension(fileName);
+            var fileNameForStorage = $"{title}-{DateTime.Now.ToString("yyyyMMddHHmmss")}{fileExtension}";
+            return fileNameForStorage;
         }
 
         [HttpGet("{id}")]
