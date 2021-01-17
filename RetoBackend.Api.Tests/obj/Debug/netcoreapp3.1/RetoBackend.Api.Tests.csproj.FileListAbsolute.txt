@@ -292,3 +292,6 @@ D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Ap
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\obj\Debug\netcoreapp3.1\RetoBackend.Api.Tests.dll
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\obj\Debug\netcoreapp3.1\RetoBackend.Api.Tests.pdb
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\obj\Debug\netcoreapp3.1\RetoBackend.Api.Tests.genruntimeconfig.cache
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\log4net.config
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\log4net.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll

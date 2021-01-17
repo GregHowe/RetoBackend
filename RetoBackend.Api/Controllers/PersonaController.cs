@@ -36,19 +36,21 @@ namespace RetoBackend.Api.Controllers
                 _logger?.LogError(e.ToString());
                 return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
             }
-
-        }
-
-        [HttpGet]
-        public async Task<ActionResult<List<PersonaDto>>> GetPersonas()
-        {
-            return await _mediator.Send(new Consulta.Ejecuta());
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<PersonaDto>> GetPersonaUnico(int id)
         {
+            _logger.LogInformation("Start : Getting item details for {ID}", id);
             return await _mediator.Send(new ConsultaFiltro.PersonaUnico { PersonaId = id });
+        }
+
+
+        [HttpGet]
+        public async Task<ActionResult<List<PersonaDto>>> GetPersonas()
+        {
+            _logger.LogInformation("Start : Getting Personas");
+            return await _mediator.Send(new Consulta.Ejecuta());
         }
 
         [HttpPut]
