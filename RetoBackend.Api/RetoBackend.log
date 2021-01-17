@@ -237,3 +237,9 @@ Error Number:207,State:1,Class:16
 2021-01-17 14:24:56,847 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
 2021-01-17 14:24:56,876 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /app
 2021-01-17 14:24:59,651 [4] INFO RetoBackend.Api.Controllers.PersonaController - Start : Getting Personas
+2021-01-17 14:33:44,897 [1] WARN Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository - Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2021-01-17 14:33:45,777 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://[::]:80
+2021-01-17 14:33:45,787 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-01-17 14:33:45,811 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-01-17 14:33:45,820 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /app
+2021-01-17 14:33:49,187 [9] INFO RetoBackend.Api.Controllers.PersonaController - Start : Getting Personas
