@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using RetoBackend.Api.Aplicacion;
 
 namespace RetoBackend.Api.Controllers
@@ -15,15 +16,27 @@ namespace RetoBackend.Api.Controllers
     {
 
         private readonly IMediator _mediator;
-        public PersonaController(IMediator mediator)
+        private readonly ILogger<PersonaController> _logger;
+        public PersonaController(ILogger<PersonaController> logger,
+            IMediator mediator)
         {
             _mediator = mediator;
+            _logger = logger;
         }
 
         [HttpPost]
         public async Task<ActionResult<Unit>> Crear(Nuevo.Ejecuta data)
         {
-            return await _mediator.Send(data);
+            try
+            {
+                return await _mediator.Send(data);
+            }
+            catch (Exception e)
+            {
+                _logger?.LogError(e.ToString());
+                return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+            }
+
         }
 
         [HttpGet]
@@ -41,13 +54,31 @@ namespace RetoBackend.Api.Controllers
         [HttpPut]
         public async Task<ActionResult<Unit>> Update(Update.Ejecuta data)
         {
-            return await _mediator.Send(data);
+            try
+            {
+                return await _mediator.Send(data);
+            }
+            catch (Exception e)
+            {
+                _logger?.LogError(e.ToString());
+                return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+            }
+
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult<Unit>> Delete(int id)
         {
-            return await _mediator.Send(new Delete.DeletePersona { PersonaId = id });
+            try
+            {
+                return await _mediator.Send(new Delete.DeletePersona { PersonaId = id });
+            }
+            catch (Exception e)
+            {
+                _logger?.LogError(e.ToString());
+                return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+            }
+
         }
 
     }
