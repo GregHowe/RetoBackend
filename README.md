@@ -89,8 +89,12 @@ Se desplegó en Azure dev ops
 ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/51.png)
 
 # Uso registro de errores (Logging)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/52.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/53.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/54.png)
 
 # Desplegar en Docker
+
 
 # Utilizar bucket cloud (para el caso de cargar foto)
 
