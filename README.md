@@ -41,8 +41,17 @@ la persona puede tener mas de una direccion, email y telefono.
  
  
 # Microservicio en NetCore 2.2 o superior
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/22.png)
  
 # Utilizar Swagger automatizado para la documentacion de apis
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/23.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/24.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/25.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/26.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/27.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/28.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/29.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/30.png)
  
 # Utilizar repositorios GIT publico (Github u otro)
  
