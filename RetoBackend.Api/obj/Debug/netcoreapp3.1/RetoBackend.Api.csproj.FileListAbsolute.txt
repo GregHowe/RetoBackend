@@ -198,3 +198,4 @@ D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Ap
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\EXT-DISC-INFO\Tutoriales\Dev\Udemy\Microservicios\reto-Backend\RetoBackend.Api\obj\Debug\netcoreapp3.1\RetoBackend.Api.csprojAssemblyReference.cache
