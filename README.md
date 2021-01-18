@@ -4,9 +4,11 @@ la persona puede tener mas de una direccion, email y telefono.
 
 ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/1.png)
 
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/2.png)
 
 # CRUD
  => Aplicando Patrón => Command Query Responsibility Segregation (CQRS) permitiendo escalar código de manera escalada
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/3.png)
  
 # EndPoint => 
  1.	Crear Persona | 2. Permite Agregar dirección, email y teléfono 
