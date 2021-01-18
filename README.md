@@ -113,6 +113,18 @@ Se desplegó en Azure dev ops
 
 
 # Utilizar bucket cloud (para el caso de cargar foto)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/71.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/72.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/73.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/74.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/75.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/76.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/77.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/78.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/79.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/80.png)
+
+
 
 # Evaluar calidad de código con (Sonarqube, SonarCloud) 
 https://sonarcloud.io/dashboard?id=GregHowe_RetoBackend
