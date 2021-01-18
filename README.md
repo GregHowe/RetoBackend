@@ -78,7 +78,7 @@ Se desplegó en Azure dev ops
 ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/42.png)
 ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/43.png)
 ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/44.png)
-![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/45.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/46.png)
 
 
 # Utilizar integración continua – Azure Dev Ops
