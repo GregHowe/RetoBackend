@@ -68,10 +68,18 @@ Se desplegó en Azure dev ops
 
  
 # Utilizar Entity Framework
-
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/38.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/39.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/40.png)
 
 
 # Realizar pruebas unitarias
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/41.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/42.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/43.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/44.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/45.png)
+
 
 # Utilizar integración continua – Azure Dev Ops
 
