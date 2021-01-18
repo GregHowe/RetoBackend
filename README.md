@@ -23,10 +23,22 @@ la persona puede tener mas de una direccion, email y telefono.
  ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/10.png)
  
  4. Obtener Persona por Id
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/11.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/12.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/13.png)
  
  5. Actualizar datos de la persona, 6. Agregar direccion, email y telefono. 7. Actualizar dirección.
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/14.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/15.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/16.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/17.png)
  
  8. Eliminar persona
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/18.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/19.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/20.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/21.png)
+ 
  
 # Microservicio en NetCore 2.2 o superior
  
