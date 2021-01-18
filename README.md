@@ -12,8 +12,15 @@ la persona puede tener mas de una direccion, email y telefono.
  
 # EndPoint => 
  1.	Crear Persona | 2. Permite Agregar dirección, email y teléfono 
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/4.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/5.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/6.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/7.png)
  
  3. Obtener Persona | 
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/8.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/9.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/10.png)
  
  4. Obtener Persona por Id
  
