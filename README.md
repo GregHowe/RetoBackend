@@ -5,7 +5,7 @@ la persona puede tener mas de una direccion, email y telefono.
 # CRUD
  => Aplicando Patrón => Command Query Responsibility Segregation (CQRS) permitiendo escalar código de manera escalada
  
- # EndPoint => 
+# EndPoint => 
  1.	Crear Persona | 2. Permite Agregar dirección, email y teléfono 
  
  3. Obtener Persona | 
@@ -16,11 +16,24 @@ la persona puede tener mas de una direccion, email y telefono.
  
  8. Eliminar persona
  
- # Microservicio en NetCore 2.2 o superior
+# Microservicio en NetCore 2.2 o superior
  
- # Utilizar Swagger automatizado para la documentacion de apis
+# Utilizar Swagger automatizado para la documentacion de apis
  
+# Utilizar repositorios GIT publico (Github u otro)
  
+# Desplegar en AWS, GCP o algun otro cloud => Se desplegó en Azure dev ops
+ 
+# Utilizar Entity Framework
+
+# Realizar pruebas unitarias
+
+# Utilizar integración continua – Azure Dev Ops
+
+# Uso registro de errores (Logging)
+
+# Desplegar en Docker
+
  
  
  
