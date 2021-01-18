@@ -54,10 +54,22 @@ la persona puede tener mas de una direccion, email y telefono.
  ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/30.png)
  
 # Utilizar repositorios GIT publico (Github u otro)
+ https://github.com/GregHowe/RetoBackend
  
-# Desplegar en AWS, GCP o algun otro cloud => Se desplegó en Azure dev ops
+# Desplegar en AWS, GCP o algun otro cloud => 
+Se desplegó en Azure dev ops
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/31.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/32.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/33.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/34.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/35.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/36.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/37.png)
+
  
 # Utilizar Entity Framework
+
+
 
 # Realizar pruebas unitarias
 
