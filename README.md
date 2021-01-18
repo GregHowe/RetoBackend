@@ -82,6 +82,11 @@ Se desplegó en Azure dev ops
 
 
 # Utilizar integración continua – Azure Dev Ops
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/47.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/48.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/49.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/50.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/51.png)
 
 # Uso registro de errores (Logging)
 
