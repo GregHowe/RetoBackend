@@ -128,5 +128,8 @@ Se desplegó en Azure dev ops
 
 # Evaluar calidad de código con (Sonarqube, SonarCloud) 
 https://sonarcloud.io/dashboard?id=GregHowe_RetoBackend
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/81.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/82.png)
+ ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/83.png)
  
  
