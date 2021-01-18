@@ -94,6 +94,22 @@ Se desplegó en Azure dev ops
 ![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/54.png)
 
 # Desplegar en Docker
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/55.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/56.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/57.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/58.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/59.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/60.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/61.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/62.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/63.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/64.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/65.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/66.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/67.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/68.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/69.png)
+![RetoBackend](https://github.com/GregHowe/RetoBackend/blob/main/imgs/70.png)
 
 
 # Utilizar bucket cloud (para el caso de cargar foto)
