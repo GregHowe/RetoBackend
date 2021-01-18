@@ -34,6 +34,9 @@ la persona puede tener mas de una direccion, email y telefono.
 
 # Desplegar en Docker
 
- 
+# Utilizar bucket cloud (para el caso de cargar foto)
+
+# Evaluar calidad de código con (Sonarqube, SonarCloud) 
+https://sonarcloud.io/dashboard?id=GregHowe_RetoBackend
  
  
